@@ -27,5 +27,8 @@
     },
     "author": "Elusive <elusivecodes@gmail.com>",
     "license": "MIT",
-    "private": false
+    "private": false,
+    "devDependencies": {
+        "stylelint-config-standard": "^36.0.1"
+    }
 }
