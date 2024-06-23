@@ -1,6 +1,6 @@
 {
     "name": "@fr0st/stylelint-config",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Stylelint shareable config for the Frost style.",
     "keywords": [
         "code",
@@ -28,7 +28,7 @@
     "author": "Elusive <elusivecodes@gmail.com>",
     "license": "MIT",
     "private": false,
-    "devDependencies": {
+    "dependencies": {
         "stylelint-config-standard": "^36.0.1"
     }
 }
