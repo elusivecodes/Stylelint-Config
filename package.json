@@ -1,6 +1,6 @@
 {
     "name": "@fr0st/stylelint-config",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Stylelint shareable config for the Frost style.",
     "keywords": [
         "code",
@@ -33,7 +33,7 @@
     "license": "MIT",
     "private": false,
     "dependencies": {
-        "@fr0st/eslint-config": "^1.0.1",
+        "@fr0st/eslint-config": "^1.0.2",
         "@stylistic/stylelint-config": "^1.0.1",
         "stylelint": "^16.6.1",
         "stylelint-config-recess-order": "^5.0.1",
