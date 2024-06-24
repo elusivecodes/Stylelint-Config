@@ -1,6 +1,6 @@
 {
     "name": "@fr0st/stylelint-config",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Stylelint shareable config for the Frost style.",
     "keywords": [
         "code",
@@ -18,9 +18,13 @@
     "main": "index.js",
     "type": "module",
     "files": [
-        "index.js"
+        "index.js",
+        "LICENSE",
+        "README.md"
     ],
-    "scripts": {},
+    "scripts": {
+        "js-lint": "eslint"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/elusivecodes/Stylelint-Config.git"
@@ -29,7 +33,9 @@
     "license": "MIT",
     "private": false,
     "dependencies": {
+        "@fr0st/eslint-config": "^1.0.1",
         "@stylistic/stylelint-config": "^1.0.1",
+        "stylelint": "^16.6.1",
         "stylelint-config-recess-order": "^5.0.1",
         "stylelint-config-standard": "^36.0.1",
         "stylelint-config-standard-scss": "^13.1.0"

@@ -2,7 +2,7 @@ export default {
     extends: [
         'stylelint-config-standard',
         'stylelint-config-recess-order',
-        '@stylistic/stylelint-config'
+        '@stylistic/stylelint-config',
     ],
     rules: {
         '@stylistic/at-rule-name-space-after': 'always',
@@ -36,9 +36,9 @@ export default {
             'numeric',
             {
                 ignore: [
-                    'relative'
-                ]
-            }
+                    'relative',
+                ],
+            },
         ],
         'function-url-no-scheme-relative': true,
         'media-feature-range-notation': null,
@@ -58,9 +58,9 @@ export default {
             true,
             {
                 ignore: [
-                    'attribute'
-                ]
-            }
+                    'attribute',
+                ],
+            },
         ],
         'selector-not-notation': null,
         'scss/at-function-named-arguments': null,
@@ -70,7 +70,7 @@ export default {
             files: '**/*.scss',
             extends: [
                 'stylelint-config-standard-scss',
-                'stylelint-config-recess-order'
+                'stylelint-config-recess-order',
             ],
             rules: {
                 'no-invalid-position-at-import-rule': null,
@@ -90,8 +90,8 @@ export default {
                 'scss/function-quote-no-quoted-strings-inside': null,
                 'scss/media-feature-value-dollar-variable': null,
                 'scss/no-global-function-names': null,
-                'scss/selector-no-redundant-nesting-selector': true
-            }
-        }
-    ]
+                'scss/selector-no-redundant-nesting-selector': true,
+            },
+        },
+    ],
 };
