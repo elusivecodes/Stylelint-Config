@@ -25,6 +25,7 @@ export default {
         '@stylistic/value-list-comma-space-after': 'always',
         'alpha-value-notation': null,
         'at-rule-empty-line-before': null,
+        'color-function-alias-notation': null,
         'color-function-notation': null,
         'color-named': 'never',
         'custom-property-empty-line-before': null,
@@ -73,6 +74,7 @@ export default {
                 'stylelint-config-recess-order',
             ],
             rules: {
+                "declaration-property-value-no-unknown": null,
                 'no-invalid-position-at-import-rule': null,
                 'scss/at-extend-no-missing-placeholder': null,
                 'scss/at-if-closing-brace-newline-after': null,
@@ -82,6 +84,7 @@ export default {
                 'scss/at-mixin-pattern': null,
                 'scss/at-rule-conditional-no-parentheses': null,
                 'scss/comment-no-empty': null,
+                "scss/declaration-property-value-no-unknown": true,
                 'scss/dimension-no-non-numeric-values': true,
                 'scss/dollar-variable-colon-space-after': 'at-least-one-space',
                 'scss/dollar-variable-empty-line-before': null,
