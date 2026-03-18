@@ -5,17 +5,19 @@ Stylelint shareable config for the *Frost* style.
 
 ## Installation
 
-```
-npm i @fr0st/stylelint-config --save-dev
+```bash
+npm i -D stylelint @fr0st/stylelint-config
 ```
 
 
 ## Usage
 
-```javascript
-export default [
-    extends: {
-        '@fr0st/stylelint-config'
-    }
-];
+Create `stylelint.config.js`:
+
+```js
+export default {
+    extends: ['@fr0st/stylelint-config'],
+};
 ```
+
+The shared config supports both CSS and SCSS. SCSS-specific rules are applied to `**/*.scss`.

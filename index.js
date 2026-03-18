@@ -64,7 +64,6 @@ export default {
             },
         ],
         'selector-not-notation': null,
-        'scss/at-function-named-arguments': null,
     },
     overrides: [
         {
@@ -74,9 +73,10 @@ export default {
                 'stylelint-config-recess-order',
             ],
             rules: {
-                "declaration-property-value-no-unknown": null,
+                'declaration-property-value-no-unknown': null,
                 'no-invalid-position-at-import-rule': null,
                 'scss/at-extend-no-missing-placeholder': null,
+                'scss/at-function-named-arguments': null,
                 'scss/at-if-closing-brace-newline-after': null,
                 'scss/at-if-closing-brace-space-after': null,
                 'scss/at-if-no-null': null,
@@ -84,7 +84,7 @@ export default {
                 'scss/at-mixin-pattern': null,
                 'scss/at-rule-conditional-no-parentheses': null,
                 'scss/comment-no-empty': null,
-                "scss/declaration-property-value-no-unknown": true,
+                'scss/declaration-property-value-no-unknown': true,
                 'scss/dimension-no-non-numeric-values': true,
                 'scss/dollar-variable-colon-space-after': 'at-least-one-space',
                 'scss/dollar-variable-empty-line-before': null,
