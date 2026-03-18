@@ -51,7 +51,7 @@
         "stylelint": "^17.4.0"
     },
     "devDependencies": {
-        "@fr0st/eslint-config": "^2.0.0",
+        "@fr0st/eslint-config": "^2.0.2",
         "stylelint": "^17.4.0"
     }
 }
