@@ -29,6 +29,6 @@ The shared config supports both CSS and SCSS. SCSS-specific rules are applied to
 
 ## Compatibility
 
-- Node.js: `>=20.19.0`
+- Node `>=24`
 - Stylelint: `^17.4.0`
 - File types: CSS and SCSS
