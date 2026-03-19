@@ -5,7 +5,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/%40fr0st/stylelint-config)](https://www.npmjs.com/package/@fr0st/stylelint-config)
 [![License](https://img.shields.io/npm/l/%40fr0st/stylelint-config)](./LICENSE)
 
-Stylelint shareable config for the Frost style.
+Stylelint shareable config for the *Frost* style.
 
 
 ## Installation

@@ -1,6 +1,6 @@
 {
     "name": "@fr0st/stylelint-config",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "Stylelint shareable config for the Frost style.",
     "keywords": [
         "code",
@@ -15,9 +15,15 @@
         "url": "https://github.com/elusivecodes/Stylelint-Config/issues",
         "email": "elusivecodes@gmail.com"
     },
-    "main": "index.js",
-    "exports": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elusivecodes/Stylelint-Config.git"
+    },
+    "license": "MIT",
+    "author": "Elusive <elusivecodes@gmail.com>",
     "type": "module",
+    "exports": "./index.js",
+    "main": "index.js",
     "files": [
         "index.js",
         "LICENSE",
@@ -28,30 +34,23 @@
         "smoke": "stylelint --config ./index.js ./test/fixtures/smoke.css ./test/fixtures/smoke.scss",
         "test": "npm run lint && npm run smoke"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/elusivecodes/Stylelint-Config.git"
-    },
-    "author": "Elusive <elusivecodes@gmail.com>",
-    "license": "MIT",
-    "private": false,
-    "publishConfig": {
-        "access": "public"
-    },
-    "engines": {
-        "node": ">=20.19.0"
-    },
     "dependencies": {
         "@stylistic/stylelint-config": "^4.0.0",
         "stylelint-config-recess-order": "^7.7.0",
         "stylelint-config-standard": "^40.0.0",
         "stylelint-config-standard-scss": "^17.0.0"
     },
+    "devDependencies": {
+        "@fr0st/eslint-config": "^2.0.4",
+        "stylelint": "^17.4.0"
+    },
     "peerDependencies": {
         "stylelint": "^17.4.0"
     },
-    "devDependencies": {
-        "@fr0st/eslint-config": "^2.0.3",
-        "stylelint": "^17.4.0"
+    "engines": {
+        "node": ">=20.19.0"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
