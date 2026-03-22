@@ -1,6 +1,6 @@
 {
     "name": "@fr0st/stylelint-config",
-    "version": "2.0.5",
+    "version": "2.0.6",
     "description": "Stylelint shareable config for the Frost style.",
     "keywords": [
         "code",
@@ -43,8 +43,8 @@
         "stylelint-config-standard-scss": "^17.0.0"
     },
     "devDependencies": {
-        "@fr0st/eslint-config": "^2.0.6",
-        "stylelint": "^17.4.0"
+        "@fr0st/eslint-config": "^3.0.0",
+        "stylelint": "^17.5.0"
     },
     "peerDependencies": {
         "stylelint": "^17.4.0"
