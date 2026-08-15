@@ -30,5 +30,5 @@ The shared config supports both CSS and SCSS. SCSS-specific rules are applied to
 ## Compatibility
 
 - Node `^20.19.0 || ^22.13.0 || >=24`
-- Stylelint: `^17.4.0`
+- Stylelint: `^17.6.0`
 - File types: CSS and SCSS

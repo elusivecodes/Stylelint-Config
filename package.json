@@ -1,6 +1,6 @@
 {
     "name": "@fr0st/stylelint-config",
-    "version": "2.0.6",
+    "version": "3.0.0",
     "description": "Stylelint shareable config for the Frost style.",
     "keywords": [
         "code",
@@ -37,17 +37,17 @@
         "test": "npm run lint && npm run smoke"
     },
     "dependencies": {
-        "@stylistic/stylelint-config": "^4.0.0",
-        "stylelint-config-recess-order": "^7.7.0",
+        "@stylistic/stylelint-config": "^5.0.0",
+        "stylelint-config-recess-order": "^7.8.0",
         "stylelint-config-standard": "^40.0.0",
         "stylelint-config-standard-scss": "^17.0.0"
     },
     "devDependencies": {
-        "@fr0st/eslint-config": "^3.0.0",
-        "stylelint": "^17.5.0"
+        "@fr0st/eslint-config": "^4.0.0",
+        "stylelint": "^17.14.1"
     },
     "peerDependencies": {
-        "stylelint": "^17.4.0"
+        "stylelint": "^17.6.0"
     },
     "engines": {
         "node": "^20.19.0 || ^22.13.0 || >=24"
